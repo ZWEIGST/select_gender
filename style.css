@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  background-color: #dd6b41;
+}
+
+body {
+  background-image: url(https://gazeta-n1.ru/upload/iblock/fe7/l8olma9vb4lx2eh99w9rcxrfdiw272dn.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.group__content {
+  gap: 1rem;
+}
+
+.images {
+  height: 40px;
+  width: 40px;
+}
+
+.images:hover {
+  stroke: #6e6e6e;
+  fill: #f1ecec;
+}
+
+.group_choise {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.group_choise_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #565555;
+  cursor: pointer;
+  background: #07777a;
+  border-radius: 1rem;
+}
+
+.btn:hover {
+  background: #f5946e;
+  font-size: 1rem;
+}
+
+.check-hidden {
+  display: none;
+}
+
+.check__error_man {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-top: 2px;
+  color: #57ba6c;
+  background: rgba(0, 255, 213, 0.938);
+  text-align: center;
+  padding: 5px 8px;
+  border: 1px solid #da8c8c;
+  border-radius: 25px;
+}
+
+.check__error_woman {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-top: 2px;
+  color: white;
+  background: rgba(185, 38, 178, 0.527);
+  text-align: center;
+  padding: 5px 8px;
+  border: 1px solid #ef9a9a;
+  border-radius: 25px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    background-color: rgb(221, 107, 65);
+}
+
+body {
+    background-image: url(https://gazeta-n1.ru/upload/iblock/fe7/l8olma9vb4lx2eh99w9rcxrfdiw272dn.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.title{
+    font-size: 1.5rem;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 1rem;
+
+    &__content{
+    gap: 1rem;
+    }
+}
+
+
+.images {
+    height: 40px;
+    width: 40px;
+}
+.images:hover{
+    stroke: rgb(110, 110, 110); 
+    fill: rgb(241, 236, 236);
+}
+
+.group_choise{
+    display: flex;
+    flex-direction: column;
+
+    &_content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(86, 85, 85);
+    cursor: pointer;
+    background: rgb(7, 119, 122);
+    border-radius: 1rem;
+
+}
+  
+.btn:hover {
+    background: rgb(245, 148, 110);
+    font-size: 1rem;
+}
+
+.check-hidden {
+    display: none;
+}
+
+.check__error_man {
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-top: 2px;
+    color: #57ba6c;
+    background: rgba(0, 255, 213, 0.938);
+    text-align: center;
+    padding: 5px 8px;
+    border: 1px solid #da8c8c;
+    border-radius: 25px;
+}
+.check__error_woman {
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-top: 2px;
+    color: white;
+    background: rgba(185, 38, 178, 0.527);
+    text-align: center;
+    padding: 5px 8px;
+    border: 1px solid #ef9a9a;
+    border-radius: 25px;
+}
